@@ -1,18 +1,18 @@
-###
+####################################################
 ### 1. Practice List creation, append, pop
-###
+####################################################
 
-print("\n1. Practice list creation, append, pop")
+print("\n1. Practice list creation, append, pop\n")
 
 # Creating a List with 
 # the use of multiple values 
 List = ["Geeks", "For", "Geeks"] 
-print("\n1.1. List containing multiple values:", List)
+print("1.1. List containing multiple values:", List)
 
 # Creating a Multi-Dimensional List 
 # (By Nesting a list inside a List) 
 List2 = [['Geeks', 'For'], ['Geeks']] 
-print("\n1.2. Multi-Dimensional List:", List2) 
+print("1.2. Multi-Dimensional List:", List2) 
 
 # accessing a element from the  
 # list using index number 
@@ -44,9 +44,9 @@ print("1.7. Pop then reappend value to list. Value:", x, ", List:", List3)
 #print(List3[7]) # raises IndexError
 
 
-###
+####################################################
 ### 2. Practice list splicing, indexing, removing
-### 
+####################################################
 print("\n2. Practice list splicing, indexing, removal\n")
 li = [1, 2, 3, 4]
 print("2.0. li =", li)
