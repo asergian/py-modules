@@ -1,5 +1,10 @@
 ####################################################
-### 1. Practice List creation, append, pop
+##  Variables and Collections                     ##
+##  Basics of Lists, Tuples, Dicts, Sets          ##
+####################################################
+
+####################################################
+## 1. Practice List creation, append, pop
 ####################################################
 
 print("\n1. Practice list creation, append, pop\n")
@@ -45,7 +50,7 @@ print("1.7. Pop then reappend value to list. Value:", x, ", List:", List3)
 
 
 ####################################################
-### 2. Practice list splicing, indexing, removing
+## 2. Practice list splicing, indexing, removing
 ####################################################
 print("\n2. Practice list splicing, indexing, removal\n")
 li = [1, 2, 3, 4]
@@ -101,7 +106,7 @@ print("2.11. Check for existence in a list with 'in'", 1 in li)  # => True
 print("2.12. len(li)", len(li))  # => 6
 
 ####################################################
-### 3. Tuples
+## 3. Tuples
 ####################################################
 
 print("\n4. Tuples")
@@ -158,7 +163,7 @@ e, d = d, e  # d is now 5 and e is now 4
 print(f"3.4.4 swap values e, d = d, e: d = {d}, e = {e}")
 
 ####################################################
-### 4. Dict
+## 4. Dict
 ####################################################
 
 print("\n4. Dicts")
