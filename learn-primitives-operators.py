@@ -209,3 +209,39 @@ print("3.3.1 None =", None)  # => None
 # Use "is" instead. This checks for equality of object identity.
 print("3.3.2 \"etc\" is None =", "etc" is None)  # => False)
 print("3.3.3 None is None =", None is None)   # => True
+
+####################################################
+## 4. Variables
+####################################################
+
+# Python has a print function
+print("4.1 I'm Python. Nice to meet you!")  # => I'm Python. Nice to meet you!
+
+# By default the print function also prints out a newline at the end.
+# Use the optional argument end to change the end string.
+print("4.2 Hello, World", end="!")  # => Hello, World!
+print('cont')
+
+# Simple way to get input data from console
+input_string_var = input("4.3 Enter some data: ")  # Returns the data as a string
+print(f"4.3.1 input_string_var = {input_string_var}")
+
+# There are no declarations, only assignments.
+# Convention in naming variables is snake_case style
+some_var = 5
+some_var  # => 5
+print(f"4.4 some_var = 5 => {some_var}")
+
+# Accessing a previously unassigned variable is an exception.
+# See Control Flow to learn more about exception handling.
+try:
+      some_unknown_var  # Raises a NameError
+except NameError as e:
+      print("4.5 NameError when accessing unassigned some_unknown_var")
+else:
+      print("4.5 No issues when accessing unassigned some_unknown_var")
+
+# if can be used as an expression
+# Equivalent of C's '?:' ternary operator
+if_expression = "yay!" if 0 > 1 else "nay!"  # => "nay!"
+print(f'4.6 "yay!" if 0 > 1 else "nay!" => {if_expression}')
