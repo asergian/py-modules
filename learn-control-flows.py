@@ -126,6 +126,8 @@ finally:                 # Execute under all circumstances
 
 
 print("\n1.5 with statement: with open('filename') as file:")
+import os
+os.makedirs('tmp', exist_ok=True) 
 # Instead of try/finally to cleanup resources you can use a with statement
 '''
 with open("myfile.txt") as f:
