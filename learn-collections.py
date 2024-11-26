@@ -18,7 +18,7 @@ print("1.1.1 List containing multiple values:", List)
 # Creating a Multi-Dimensional List 
 # (By Nesting a list inside a List) 
 List2 = [['Geeks', 'For'], ['Geeks']] 
-print("1.2. Multi-Dimensional List:", List2) 
+print("1.2 Multi-Dimensional List:", List2) 
 
 # accessing a element from the  
 # list using index number 
