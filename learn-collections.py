@@ -4,7 +4,7 @@
 ####################################################
 
 ####################################################
-## 1. Practice List creation, append, pop
+## 1. List creation, append, pop
 ####################################################
 
 print("\n1. Practice list creation, append, pop\n")
@@ -56,7 +56,7 @@ else:
     print("1.8 No issue when accesing List3[7]")
 
 ####################################################
-## 2. Practice list splicing, indexing, removing
+## 2. List splicing, indexing, removing
 ####################################################
 print("\n2. Practice list splicing, indexing, removal\n")
 li = [1, 2, 4, 3]
@@ -181,7 +181,7 @@ e, d = d, e  # d is now 5 and e is now 4
 print(f"3.4.4 swap values e, d = d, e: d = {d}, e = {e}")
 
 ####################################################
-## 4. Dict
+## 4. Dicts
 ####################################################
 
 print("\n4. Dicts")
