@@ -34,6 +34,19 @@ print("5.4.2 math.sqrt(16) = ", math.sqrt(16))
 print("5.4.3 m.sqrt(16) = ", m.sqrt(16))
 print("5.4.4 math.sqrt(16) == m.sqrt(16): ", math.sqrt(16) == m.sqrt(16))
 
+# Python modules are just ordinary Python files. You
+# can write your own, and import them. The name of the
+# module is the same as the name of the file.
+
+# You can find out which functions and attributes
+# are defined in a module.
+
 # 5.5 Listing Module Contents
 print("\n5.5 Module Introspection")
 print("5.5.1 dir(math)[:10] = ", dir(math)[:10])  # Shows first 10 module contents
+
+# If you have a Python script named math.py in the same
+# folder as your current script, the file math.py will
+# be loaded instead of the built-in Python module.
+# This happens because the local folder has priority
+# over Python's built-in libraries.
